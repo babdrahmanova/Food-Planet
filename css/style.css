@@ -2,6 +2,10 @@
     padding-top: 110px;
 }
 
+.pt-16{
+    padding-top: 16px;
+}
+
 .mt-100 {
     margin-top: 100px;
 }
@@ -18,10 +22,10 @@
     display: flex;
 }
 
-.header_container {
-    display: flex;
-    justify-content: center;
+.pl-150px{
+    padding-left: 150px;
 }
+
 
 nav {
     display: flex;
@@ -85,7 +89,7 @@ p {
     height: 49px;
 }
 
-.btn:hover{
+.btn:hover {
     background: #2b5f5c;
     transition: 0.3s;
 }
@@ -126,6 +130,10 @@ h2 {
     display: flex;
     align-items: center;
     color: #254F4C;
+}
+
+.display-block {
+    display: block;
 }
 
 .justify-center {
@@ -169,6 +177,10 @@ li {
 
 .white-color {
     color: #FFFFFF;
+}
+
+h4 {
+    color: #3B7976;
 }
 
 .white-background {
@@ -233,4 +245,43 @@ h3 {
     justify-content: flex-end;
     align-items: center;
     margin-right: 170px;
+}
+
+.features-card {
+    padding: 32px 16px;
+    width: 280px;
+    text-align: center;
+}
+
+.review-card {
+
+    box-sizing: border-box;
+    width: 248px;
+    height: 305px;
+    text-align: center;
+    background: #FFFDFD;
+    padding: 24px 16px;
+    border: 2px solid #1D3130;
+    border-radius: 40px;
+    margin: 49px 17px 0;
+
+}
+
+.review-card p, h4 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer {
+    width: 100%;
+    background: #254F4C;
+    padding: 30px 0;
+}
+
+footer a{
+    color: #ffffff;
+
 }
